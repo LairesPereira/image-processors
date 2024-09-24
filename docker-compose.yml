@@ -1,0 +1,19 @@
+version: 2.29.6
+
+services:
+
+  image-processors-app:
+    build: ./image-processors-app/my-app
+    depends_on:
+      - image-processors-api
+    ports: 
+      - 3000:3000
+      
+
+
+  image-processors-api:
+    build: ./image-processors-api
+    ports: 
+      - 8080:8080
+
+  
