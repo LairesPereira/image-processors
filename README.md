@@ -20,7 +20,7 @@ git clone https://github.com/seu-usuario/image-processors-api-v2.git
 cd image-processors-api-v2
 ```
 
-Abra o IntelliJ IDEA.
+2. Abra o IntelliJ IDEA.
 •	Selecione Open e navegue até a pasta image-processors-api-v2.
 •	Localize e abra o arquivo ImageProcessorsApplication.java no caminho src/main/java/com/example/processors/ImageprocessorApplication.java.
 
